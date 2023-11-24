@@ -35,7 +35,7 @@
 %endif
 %global with_iris   1
 %global with_xa     1
-%global intel_platform_vulkan ,intel,intel_hasvk
+%global intel_platform_vulkan,intel,intel_hasvk,nouveau-experimental
 %endif
 
 %ifarch aarch64 x86_64 %{ix86}
